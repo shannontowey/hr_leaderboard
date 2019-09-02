@@ -1,9 +1,10 @@
 hr_leaderboard:
 
 for deployment/development:
-- leave mlb endpoint as gd2, and all other config settings the same 
-- make the container:
+- leave mlb_endpoint as gd2, and all other config settings the same 
+- make the container locally:
      - `make && make build && make run && docker logs -f hr_leaderboard`
+     
      or if making not for the first time:
      - `make clean && make build && make run && docker logs -f hr_leaderboard`
      
