@@ -1,13 +1,6 @@
 import logging
 import configparser
 import os
-import re
-import xml.etree.ElementTree as ET
-from enum import Enum
-
-DISPATCH_PARM = 'dispatch_time'
-DISPATCHED_PARM = 'dispatch_success'
-COMPLETE_PARM = 'success_complete'
 
 def parse_config(config_path):
     config_file_path = os.path.abspath(config_path)
