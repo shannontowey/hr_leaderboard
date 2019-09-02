@@ -10,9 +10,11 @@ for deployment/development:
      
 sending requests:
 requests require the following parameters:
+```
 start_date = 'year-month-date'
 end_date = 'year-month-date'
 num_leaders = integer # of top leaders to return
+```
 
 requests are sent in JSON format thru POST, for example:
 
