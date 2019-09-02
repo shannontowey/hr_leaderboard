@@ -36,7 +36,6 @@ def run_server(config):
 
     adapters = setup_adapters(config)
 
-    #RTT product endpoint
     api.add_resource(RetrieveAPIv1, '/v1/retrieve', '/retrieve', endpoint='v1_retrieve',
                      resource_class_kwargs={'gamefeed_adapter': adapters['gamefeed_adapter']})
     app.run(host='0.0.0.0', port=config['main']['port'], debug=config['main']['debug'])
