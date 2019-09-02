@@ -1,4 +1,4 @@
-hr_leaderboard:
+### hr_leaderboard:
 
 for deployment/development:
 - leave mlb_endpoint as gd2, and all other config settings the same 
