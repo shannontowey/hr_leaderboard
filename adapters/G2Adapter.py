@@ -1,11 +1,7 @@
-import re
 import logging
 import urllib.request
-import csv
 import json
 import datetime
-
-import common.util as util
 
 class G2AdapterException(Exception):
     pass
