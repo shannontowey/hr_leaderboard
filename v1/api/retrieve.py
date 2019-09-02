@@ -1,11 +1,7 @@
-import logging
-import copy
-
 from flask_restplus import Resource
 from webargs.flaskparser import use_args
 
 from ..schema.retrieve import Retrieve
-import common.util as util
 
 class RetrieveAPI(Resource):
     def __init__(self, *args, **kwargs):
